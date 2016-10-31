@@ -46,14 +46,14 @@ $(function() {
             } else if (width == 375) {
                 //iphone6 
                 docEle.style.fontSize = "57px";
-            } else if (width == 412) {
-                // Nexus 5X
+            } else if (width == 414) {
+                // iphone6s Plus
                 docEle.style.fontSize = "57px";
             } else if (width == 768) {
                 //ipad 
                 docEle.style.fontSize = "88px";
             } else {
-                docEle.style.fontSize = Math.round(width / 640 * 100) + "px";
+                docEle.style.fontSize = Math.round(width / 650 * 100) + "px";
             }
         }
 

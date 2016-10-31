@@ -246,8 +246,7 @@
 
 }
 .index .m-header .cog, .index .m-header .user{
-  margin: 0 auto;
-  width: 0.86rem;
+  width: 0.96rem;
   height: 100%;
   font-size: 0.5rem;
 }
@@ -255,6 +254,7 @@
   
 }
 .index .m-header .title{
+  margin: 0 auto;
   width: 4.68rem;
   height: 100%;
 }
@@ -265,7 +265,7 @@
   font-size: 0.24rem;
 }
 .index .m-search{
-  width: 6rem;
+  width: 98%;
   height: 0.56rem;
   line-height: 0.56rem;
   margin: 0.16rem auto;
@@ -300,15 +300,15 @@
 
 }
 .index .m-nav{
+  display: flex;
   height: 0.6rem;
   line-height: 0.6rem;
   margin: 0.18rem auto;
   text-align: center;
 }
 .index .m-nav .nav{
-  display:inline-block;
-  width: 1.90rem;
-  margin: 0 0.04rem;
+  flex-grow: 1;
+  margin: 0 0.14rem;
   text-align: center;
 
   border: 1px solid #fff;
